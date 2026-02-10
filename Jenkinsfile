@@ -9,5 +9,5 @@ if (env.BRANCH_NAME == 'main') {
     echo "Please follow the CR process"
 }
 else {
-    (configMap)
+    pythonEKSpipeline(configMap)
 }
